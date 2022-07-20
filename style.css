@@ -35,7 +35,7 @@ header{
     padding: 50px;
     gap: 90px;
     border-radius: 10px;
-    background-color: #161616;
+    background-color: #2e1275;
 
 }
 
@@ -55,13 +55,19 @@ header{
 }
 
 .button{
-    background-color: #DD0000;
+    background-color: #fb0771;
     padding: 15px 25px;
     border-radius: 10px;
     font-size: 20px;
     color:  #FFFFFF;
-    text-decoration: none;
+    text-decoration: none; 
 }
+
+.button:hover{
+    animation: btn-annimation 4s;
+    animation-fill-mode: forwards;
+}
+
 
 .fa-greater-than{
     margin-left: 10px;
@@ -69,12 +75,40 @@ header{
 
 }
 
+
+.fa-tv{
+    margin-right: 10px;
+
+}
 .header-img{
     width: 50%;
 }
 
 .header-img img{
     width: 100%;
+}
+
+
+
+
+
+@keyframes btn-annimation {
+    25%{
+        background-color: #42f262; 
+    }
+
+    50%{
+        background-color: rgb(50, 50, 253);
+    }
+
+    75%{
+        background-color: #fb8d07;
+    }
+
+    100%{
+        background-color: #b607fb;
+    }
+    
 }
 
 
@@ -99,7 +133,7 @@ header{
 .manuber-container{
     width: 312px;
     height: 312px;
-    background-color: #161616;
+    background-color: #2e1275;
     border-radius: 10px;
     padding: 18px;
     justify-content: space-around;
@@ -205,7 +239,7 @@ header{
 
 
 footer{
-    background-color: #161616;
+    background-color: #2e1275;
     padding: 90px 0;
 }
 
