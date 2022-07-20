@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
-/*-------------------------------
- universal style 
- -------------------------------*/
+
+ /* universal style  */
+
 
 *{
     margin: 0;
@@ -13,12 +13,8 @@
 }
 
 
+    /* header style start */
 
-
-
-/*------------------------------
-    header style start
---------------------------------*/
 
 header{
     justify-content: center;
@@ -43,15 +39,18 @@ header{
     width: 50%;
     color: #FFFFFF;
 
+
 }
 .header-title h1{
     font-weight: 700;
     font-size: 50px;
     margin-bottom: 30px;
+    
 }
 
 .header-title p{
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 .button{
@@ -63,16 +62,11 @@ header{
     text-decoration: none; 
 }
 
-.button:hover{
-    animation: btn-annimation 4s;
-    animation-fill-mode: forwards;
-}
 
 
 .fa-greater-than{
     margin-left: 10px;
     font-size: 20px;
-
 }
 
 
@@ -90,6 +84,12 @@ header{
 
 
 
+/* button hover animation */
+
+.button:hover{
+    animation: btn-annimation 4s;
+    animation-fill-mode: forwards;
+}
 
 
 @keyframes btn-annimation {
@@ -112,15 +112,8 @@ header{
 }
 
 
+    /* manuber boxes container starts */
 
-/*------------------------------
-    header style end
---------------------------------*/
-
-
-/*----------------------------------
-    manuber boxes container starts
---------------------------------====*/
 
 .manuber-boxes-container{
     display: flex;
@@ -153,9 +146,7 @@ header{
     display: flex;;
     background-color: #FFFFFF;
     margin: 10px;
-    transition: .8s;
-    
-    
+    transition: .8s;   
 }
 
 
@@ -235,7 +226,7 @@ header{
 }
 
 
-/* footer start */
+/* footer style start */
 
 
 footer{
@@ -264,8 +255,6 @@ footer{
     font-size: 17px;
     color: #FFFFFF;
     text-decoration: none;
-
-
 }
 
 .social-link a{
@@ -276,24 +265,18 @@ footer{
 
 
 
-/* upcoming match style */
+/* upcoming match webpage style */
 
 .boxes-container2{
     display: flex;
     flex-grow: 1;
-    justify-content: center;
-
-
-   
+    justify-content: center;  
 }
 
 
 .boxes-container2{
     display: flex;
-    flex-grow: 1;
-
-
-   
+    flex-grow: 1; 
 }
 
 .all-boxes2{
@@ -321,15 +304,11 @@ footer{
 }
 
 .box-img2 img{
-
-    width: 40%;
-
-    
+    width: 40%;   
 }
 
 .box-description2{
     text-align: center;
-
 }
 
 .box-description2 h2{
@@ -343,24 +322,21 @@ footer{
     font-size: 14px;
 }
 
-
-
-
-
 /* upxoming match style end */
 
 
 
 
-/*-----------------------------------
- responsive design 
- ------------------------------------*/
+/*---------------------------------------------------------------------------------
+                                    responsive design for phone and tab
+ -------------------------------------------------------------------------------*/
+
+
+ /* phone responsive design */
 
  @media screen and (max-width: 688px) {
 
     /*  header style */
-
-
 
     .header-container{
         display: flex;
@@ -370,13 +346,22 @@ footer{
     .header-title{
         width: 100%;
         text-align: center;
+    }
 
+
+    .title-p-div{
+        width: 50%px;
+        height: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 50px;   
     }
 
     .header-title p{
-        margin-bottom: 50px;
+        text-align: center;
     }
-    
+
+
     .header-img{
         width: 100%;
     }
@@ -394,20 +379,14 @@ footer{
     background-color: #FFFFFF;
     align-items: center;
 }
+
 .manuber-container a{
     border: 1px solid #161616;
-    font-size: 24px;
-
-    
+    font-size: 24px;  
 }
 
-
-
-
 .all-boxes{
-
     grid-template-columns: repeat(1, 1fr);
-
 }
 
 
@@ -417,26 +396,18 @@ footer{
     width: 100%;
 }
 
-
-
-
 .box-description h2{
     font-size: 20px;
-
 }
 
 
+    /* footer responsive  */
 
-
-/*----------------------------------
-    footer start
-------------------------------------*/
 
 .footer-manu a{
     display: flex;
     flex-direction: column;
     text-align: center;
-
 }
 
 
@@ -445,10 +416,7 @@ footer{
 
  .boxes-container2{
     display: flex;
-    flex-grow: 1;
-
-
-   
+    flex-grow: 1;  
 }
 
 .all-boxes2{
@@ -476,38 +444,30 @@ footer{
 
 .box-img2 img{
     width: 100px;
-    height: 55px;
-
-    
+    height: 55px;  
 }
+
 
 .box-description2{
     text-align: center;
-
 }
-
-
-
-
-
 
     
  }
 
 
 
- /* tablet responsive */
+ /* tablet responsive design */
 
 
  @media screen and (min-width: 689px) and (max-width: 992px) {
     
-/* manuber boxes container starts */
+/* manuber boxes container responsive */
 
 .manuber-boxes-container{
 
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 .manuber-container{
@@ -521,10 +481,8 @@ footer{
 .manuber-container a{
 
     border: 1px solid #161616;
-    padding: 0 10px;
-    
+    padding: 0 10px; 
 }
-
 
 
 .boxes-container{
@@ -567,8 +525,6 @@ footer{
     font-size: 17px;
     color: #FFFFFF;
     text-decoration: none;
-
-
 }
 
 
@@ -577,9 +533,6 @@ footer{
 .boxes-container2{
     display: flex;
     flex-grow: 1;
-
-
-   
 }
 
 .all-boxes2{
@@ -607,18 +560,12 @@ footer{
 
 .box-img2 img{
     width: 100px;
-    height: 55px;
-
-    
+    height: 55px;  
 }
 
 .box-description2{
     text-align: center;
-
 }
-
-
-
 
  }
 
