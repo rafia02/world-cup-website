@@ -177,6 +177,7 @@ header{
     width: 143px;
     height: 26px;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 
@@ -188,7 +189,7 @@ header{
 
 /*----------------------------------
     footer start
---------------------------------====*/
+------------------------------------*/
 
 
 footer{
@@ -226,3 +227,102 @@ footer{
     font-size: 26px;
     margin: 30px;
 }
+
+
+
+
+/*-----------------------------------
+ responsive design 
+ ------------------------------------*/
+
+ @media screen and (max-width: 688px) {
+
+    /*----------------------
+     header style 
+    -----------------------*/
+
+
+
+    .header-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header-title{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .header-title p{
+        margin-bottom: 50px;
+    }
+    
+    .header-img{
+        width: 100%;
+    }
+    
+
+    /*----------------------------------
+    manuber boxes container starts
+--------------------------------====*/
+
+.manuber-boxes-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.manuber-container{
+    background-color: #FFFFFF;
+    align-items: center;
+}
+.manuber-container a{
+    border: 1px solid #161616;
+    font-size: 24px;
+
+    
+}
+
+
+
+
+.all-boxes{
+
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+
+.box-img img{
+    width: 357px;
+    height: 200.24px;
+    width: 100%;
+}
+
+
+
+
+.box-description h2{
+    font-size: 20px;
+
+}
+
+
+
+
+/*----------------------------------
+    footer start
+------------------------------------*/
+
+.footer-manu a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+
+
+    
+ }
