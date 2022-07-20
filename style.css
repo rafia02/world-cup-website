@@ -166,8 +166,8 @@ header{
 .box-description h3{
     font-weight: 500;
     border: 1px solid #161616;
-    font-size: 22px;
-    padding: 5px 10px;
+    font-size: 19px;
+    padding: 3px 6px;
     width: 100px;
     justify-content: center;
     display: flex;
@@ -176,6 +176,7 @@ header{
 }
 
 .box-description h2{
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -279,6 +280,7 @@ footer{
 }
 
 .box-img2 span{
+    padding: 5px;
     font-size: 20px;
     font-weight: 700;
 }
@@ -293,6 +295,17 @@ footer{
 .box-description2{
     text-align: center;
 
+}
+
+.box-description2 h2{
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+
+.box-description2 p{
+    font-size: 14px;
 }
 
 
