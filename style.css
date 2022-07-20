@@ -507,6 +507,22 @@ footer{
 }
 
 
+/* footer responsive */
+
+.footer-description{
+    padding: 0 60px;
+    text-align: center;
+}
+
+.footer-manu a{
+    margin: 20px;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+
+}
+
 
 /* upcoming match responsive */
 
