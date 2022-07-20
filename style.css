@@ -25,14 +25,14 @@ header{
     display: flex;
     margin: 0 60px;
     margin-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .header-container{
     display: flex;
     align-items: center;
     border: 2px solid;
-    padding: 20px;
+    padding: 50px;
     gap: 90px;
     border-radius: 10px;
     background-color: #161616;
@@ -119,12 +119,19 @@ header{
     display: flex;;
     background-color: #FFFFFF;
     margin: 10px;
+    transition: .8s;
     
     
 }
 
+
+.manuber-container a:hover{
+    background-color: #fb0771;
+    color: #FFFFFF;
+}
+
 #blog{
-    background-color: #DD0000;
+    background-color: #fb0771;
     color: #FFFFFF;
 }
 
@@ -182,15 +189,17 @@ header{
 }
 
 
-/*-----------------------------------------
-    manuber boxes container starts end
-------------------------------------------*/
+/* manuber boxes container starts end */
+
+.view-all-link{
+    margin: 90px;
+    justify-content: center;
+    display: flex;
+    visibility: hidden;
+}
 
 
-
-/*----------------------------------
-    footer start
-------------------------------------*/
+/* footer start */
 
 
 footer{
@@ -231,6 +240,69 @@ footer{
 
 
 
+/* upcoming match style */
+
+.boxes-container2{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+
+
+   
+}
+
+
+.boxes-container2{
+    display: flex;
+    flex-grow: 1;
+
+
+   
+}
+
+.all-boxes2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.box2{
+    padding: 50px 30px;
+    border-radius: 5px; 
+    box-shadow: 4px 8px 16px rgb(206, 204, 204);
+}
+
+.box-img2{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.box-img2 span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box-img2 img{
+
+    width: 40%;
+
+    
+}
+
+.box-description2{
+    text-align: center;
+
+}
+
+
+
+
+
+/* upxoming match style end */
+
+
+
 
 /*-----------------------------------
  responsive design 
@@ -238,9 +310,7 @@ footer{
 
  @media screen and (max-width: 688px) {
 
-    /*----------------------
-     header style 
-    -----------------------*/
+    /*  header style */
 
 
 
@@ -264,13 +334,12 @@ footer{
     }
     
 
-    /*----------------------------------
-    manuber boxes container starts
---------------------------------====*/
+    /* manuber boxes container starts */
 
 .manuber-boxes-container{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .manuber-container{
@@ -323,6 +392,57 @@ footer{
 }
 
 
+
+ /* upcoming match responsibe phone */
+
+ .boxes-container2{
+    display: flex;
+    flex-grow: 1;
+
+
+   
+}
+
+.all-boxes2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+
+.box2{
+    padding: 50px 30px;
+    border-radius: 5px; 
+    box-shadow: 4px 8px 16px rgb(206, 204, 204);
+}
+
+.box-img2{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.box-img2 span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box-img2 img{
+    width: 100px;
+    height: 55px;
+
+    
+}
+
+.box-description2{
+    text-align: center;
+
+}
+
+
+
+
+
+
     
  }
 
@@ -333,15 +453,12 @@ footer{
 
  @media screen and (min-width: 689px) and (max-width: 992px) {
     
-/*----------------------------------
-    manuber boxes container starts
---------------------------------====*/
+/* manuber boxes container starts */
 
 .manuber-boxes-container{
 
     display: flex;
     flex-direction: column;
-    /* background-color: beige; */
     
 }
 
@@ -385,4 +502,66 @@ footer{
 }
 
 
+.view-all-link{
+    visibility: visible;
+}
+
+
+
+/* upcoming match responsive */
+
+.boxes-container2{
+    display: flex;
+    flex-grow: 1;
+
+
+   
+}
+
+.all-boxes2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.box2{
+    padding: 50px 30px;
+    border-radius: 5px; 
+    box-shadow: 4px 8px 16px rgb(206, 204, 204);
+}
+
+.box-img2{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.box-img2 span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box-img2 img{
+    width: 100px;
+    height: 55px;
+
+    
+}
+
+.box-description2{
+    text-align: center;
+
+}
+
+
+
+
  }
+
+
+
+
+
+
+
+ 
